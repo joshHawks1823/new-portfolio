@@ -93,12 +93,12 @@ const Navbar = () => {
   return (
     <>
       <Box component="nav">
-        <AppBar position="static" style={{ background: "#667db6" }}>
+        <AppBar position="static" style={{ background: "#fff" }}>
           <Toolbar>
             <IconButton onClick={toggleSlider("right", true)}>
-              <WorkIcon style={{ color: "#fff" }} />
+              <WorkIcon style={{ color: "#667db6" }} />
             </IconButton>
-            <Typography variant="h5" style={{ color: "#fff" }}>
+            <Typography variant="h5" style={{ color: "#667db6" }}>
               My Work
             </Typography>
             <MobileRightMenuSlider
