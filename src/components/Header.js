@@ -47,12 +47,7 @@ function Header() {
       <br />
       <Typography className={classes.subtitle} src={avatar} variant="h4">
         <Typed
-          strings={[
-            "Web Development",
-            "PERN Stack",
-            "MEAN Stack",
-            "MERN Stack",
-          ]}
+          strings={["Web Development", "PERN Stack", "MEAN Stack"]}
           typeSpeed={40}
           backSpeed={60}
           loop
